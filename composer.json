@@ -12,8 +12,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/jorodriguezpr/chat-widget/issues",
-        "source": "https://github.com/jorodriguezpr/chat-widget"
+        "issues": "https://github.com/jorodriguezpr/laravel-ai-chat/issues",
+        "source": "https://github.com/jorodriguezpr/laravel-ai-chat"
     },
     "require": {
         "php": ">=8.1",

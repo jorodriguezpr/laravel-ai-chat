@@ -45,7 +45,7 @@ This guide covers deploying the Chat Widget package in production environments.
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/jorodriguezpr/chat-widget"
+            "url": "https://github.com/jorodriguezpr/laravel-ai-chat"
         }
     ]
 }

@@ -1,6 +1,6 @@
 # Chat Widget Package for Laravel
 
-[![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)](https://github.com/jorodriguezpr/chat-widget)
+[![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)](https://github.com/jorodriguezpr/laravel-ai-chat)
 [![Laravel](https://img.shields.io/badge/Laravel-10%20|%2011%20|%2012%20|%2013-red.svg)](https://laravel.com)
 [![PHP](https://img.shields.io/badge/PHP-8.1%2B-purple.svg)](https://php.net)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)

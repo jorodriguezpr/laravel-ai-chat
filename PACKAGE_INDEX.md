@@ -7,7 +7,7 @@
 - **License**: MIT
 - **Author**: Jose Rodriguez Arroyo (jrpcone@gmail.com)
 - **Homepage**: https://www.microrepair.net
-- **Repository**: https://github.com/jorodriguezpr/chat-widget
+- **Repository**: https://github.com/jorodriguezpr/laravel-ai-chat
 - **Laravel Support**: 10.x, 11.x, 13.x
 - **PHP Requirement**: 8.1+
 
@@ -248,7 +248,7 @@ Add to `composer.json`:
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/jorodriguezpr/chat-widget.git"
+            "url": "https://github.com/jorodriguezpr/laravel-ai-chat.git"
         }
     ]
 }
@@ -447,9 +447,9 @@ php artisan cache:clear
 
 ### Documentation
 
-- **GitHub Repository**: https://github.com/jorodriguezpr/chat-widget
-- **Issues**: https://github.com/jorodriguezpr/chat-widget/issues
-- **Discussions**: https://github.com/jorodriguezpr/chat-widget/discussions
+- **GitHub Repository**: https://github.com/jorodriguezpr/laravel-ai-chat
+- **Issues**: https://github.com/jorodriguezpr/laravel-ai-chat/issues
+- **Discussions**: https://github.com/jorodriguezpr/laravel-ai-chat/discussions
 
 ### Contact
 

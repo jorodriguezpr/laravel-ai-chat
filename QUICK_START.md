@@ -226,5 +226,5 @@ composer dump-autoload
 
 ## 💬 Support
 
-- GitHub: https://github.com/jorodriguezpr/chat-widget
-- Issues: https://github.com/jorodriguezpr/chat-widget/issues
+- GitHub: https://github.com/jorodriguezpr/laravel-ai-chat
+- Issues: https://github.com/jorodriguezpr/laravel-ai-chat/issues

@@ -44,7 +44,7 @@ composer require microrepairnet/chat-widget
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/jorodriguezpr/chat-widget.git"
+            "url": "https://github.com/jorodriguezpr/laravel-ai-chat.git"
         }
     ]
 }
@@ -621,7 +621,7 @@ Once installation is verified:
 
 ## 🆘 Support
 
-**Issues**: https://github.com/jorodriguezpr/chat-widget/issues  
+**Issues**: https://github.com/jorodriguezpr/laravel-ai-chat/issues  
 **Email**: jrpcone@gmail.com  
 **Documentation**: [README.md](README.md)
 

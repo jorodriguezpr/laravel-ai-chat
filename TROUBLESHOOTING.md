@@ -345,7 +345,7 @@ Get-ChildItem resources\views\vendor\chat-widget\
 
 ### Getting Help:
 
-- **GitHub Issues:** https://github.com/jorodriguezpr/chat-widget/issues
+- **GitHub Issues:** https://github.com/jorodriguezpr/laravel-ai-chat/issues
 - **Check Documentation:** 
   - [INSTALLATION.md](INSTALLATION.md)
   - [QUICK_START.md](QUICK_START.md)

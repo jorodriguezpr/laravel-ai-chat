@@ -48,7 +48,7 @@ git add .
 git commit -m "Initial release v1.1.0"
 
 # Create GitHub repository (via GitHub CLI or web interface)
-gh repo create jorodriguezpr/chat-widget --public --source=. --remote=origin
+gh repo create jorodriguezpr/laravel-ai-chat --public --source=. --remote=origin
 
 # Push to GitHub
 git branch -M main
@@ -69,7 +69,7 @@ git push origin v1.1.0
 
 1. **Create Packagist account**: Go to [packagist.org](https://packagist.org/) and sign up
 2. **Submit package**: Click "Submit" in top navigation
-3. **Enter repository URL**: `https://github.com/jorodriguezpr/chat-widget`
+3. **Enter repository URL**: `https://github.com/jorodriguezpr/laravel-ai-chat`
 4. **Click "Check"**: Packagist will validate your `composer.json`
 5. **Click "Submit"**: Your package is now published!
 
@@ -116,7 +116,7 @@ Create `satis.json`:
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/jorodriguezpr/chat-widget"
+            "url": "https://github.com/jorodriguezpr/laravel-ai-chat"
         }
     ],
     "require-all": true,
@@ -216,7 +216,7 @@ cd c:\PhpProjects\microrepairnet-web\packages\microrepairnet\chat-widget
 git init
 git add .
 git commit -m "Initial commit v1.1.0"
-git remote add origin https://github.com/jorodriguezpr/chat-widget.git
+git remote add origin https://github.com/jorodriguezpr/laravel-ai-chat.git
 git push -u origin main
 
 # Tag version
@@ -233,7 +233,7 @@ In your Laravel project's `composer.json`:
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/jorodriguezpr/chat-widget.git"
+            "url": "https://github.com/jorodriguezpr/laravel-ai-chat.git"
         }
     ],
     "require": {
@@ -257,7 +257,7 @@ composer install
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:jorodriguezpr/chat-widget.git"
+            "url": "git@github.com:jorodriguezpr/laravel-ai-chat.git"
         }
     ]
 }
@@ -410,7 +410,7 @@ composer create-project laravel/laravel test-chat-widget
 cd test-chat-widget
 
 # Add repository (if using Git or Satis)
-composer config repositories.chat-widget vcs https://github.com/jorodriguezpr/chat-widget.git
+composer config repositories.chat-widget vcs https://github.com/jorodriguezpr/laravel-ai-chat.git
 
 # Install package
 composer require microrepairnet/chat-widget:^1.1
@@ -504,7 +504,7 @@ jobs:
     "name": "microrepairnet/chat-widget",
     "description": "Laravel package for real-time chat widget with AI support",
     "keywords": ["laravel", "chat", "widget", "ai", "livechat"],
-    "homepage": "https://github.com/jorodriguezpr/chat-widget",
+    "homepage": "https://github.com/jorodriguezpr/laravel-ai-chat",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -516,9 +516,9 @@ jobs:
         }
     ],
     "support": {
-        "issues": "https://github.com/jorodriguezpr/chat-widget/issues",
-        "source": "https://github.com/jorodriguezpr/chat-widget",
-        "docs": "https://github.com/jorodriguezpr/chat-widget#readme"
+        "issues": "https://github.com/jorodriguezpr/laravel-ai-chat/issues",
+        "source": "https://github.com/jorodriguezpr/laravel-ai-chat",
+        "docs": "https://github.com/jorodriguezpr/laravel-ai-chat#readme"
     }
 }
 ```
@@ -635,7 +635,7 @@ php bin/satis build satis.json public/
 **Git Direct**:
 ```json
 {
-    "repositories": [{"type": "vcs", "url": "https://github.com/jorodriguezpr/chat-widget.git"}]
+    "repositories": [{"type": "vcs", "url": "https://github.com/jorodriguezpr/laravel-ai-chat.git"}]
 }
 ```
 
