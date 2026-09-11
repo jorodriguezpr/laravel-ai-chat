@@ -1,11 +1,52 @@
 # Chat Widget Package for Laravel
 
-[![Version](https://img.shields.io/badge/version-1.1.1-blue.svg)](https://github.com/jorodriguezpr/chat-widget)
+[![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)](https://github.com/jorodriguezpr/chat-widget)
 [![Laravel](https://img.shields.io/badge/Laravel-10%20|%2011%20|%2012%20|%2013-red.svg)](https://laravel.com)
 [![PHP](https://img.shields.io/badge/PHP-8.1%2B-purple.svg)](https://php.net)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 A comprehensive Laravel chat widget package with multi-provider AI support (OpenAI GPT-6/5.6, Claude 5, Gemini 3.8, GitHub Models).
+
+## Screenshots
+
+<table>
+<tr>
+<td width="50%">
+
+**Visitor widget**
+<img src="docs/screenshots/widget-bubble.png" alt="Chat bubble on the host site">
+
+</td>
+<td width="50%">
+
+**Live conversation**
+<img src="docs/screenshots/widget-conversation.png" alt="Visitor chatting with the widget open">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Agent dashboard**
+<img src="docs/screenshots/admin-live-chat-list.png" alt="Admin live chat list with pending/active/past tabs">
+
+</td>
+<td width="50%">
+
+**Conversation view**
+<img src="docs/screenshots/admin-chat-conversation.png" alt="Agent view of a single conversation with CSV export and audit log">
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+**AI provider settings**
+<img src="docs/screenshots/admin-ai-settings.png" alt="AI settings page with provider selection and credentials">
+
+</td>
+</tr>
+</table>
 
 ## 📚 Complete Documentation
 
