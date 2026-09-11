@@ -1,0 +1,43 @@
+{
+    "name": "microrepairnet/chat-widget",
+    "description": "A comprehensive Laravel chat widget package with AI provider support",
+    "version": "1.2.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jose Rodriguez",
+            "email": "jrpcone@gmail.com",
+            "homepage": "https://github.com/jorodriguezpr/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/jorodriguezpr/chat-widget/issues",
+        "source": "https://github.com/jorodriguezpr/chat-widget"
+    },
+    "require": {
+        "php": ">=8.1",
+        "laravel/framework": "^10.0|^11.0|^12.0|^13.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "orchestra/testbench": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Microrepairnet\\ChatWidget\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Microrepairnet\\ChatWidget\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Microrepairnet\\ChatWidget\\Providers\\ChatWidgetServiceProvider"
+            ]
+        }
+    }
+}
