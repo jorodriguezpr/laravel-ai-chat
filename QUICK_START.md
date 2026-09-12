@@ -17,7 +17,7 @@ Your layout must include the CSRF token meta tag in the `<head>` section:
 
 ```bash
 # 1. Add package to composer.json
-composer require microrepairnet/chat-widget
+composer require microrepairnet/laravel-ai-chat
 
 # 2. Run migrations
 php artisan migrate
@@ -189,7 +189,7 @@ php artisan vendor:publish --tag="chat-widget-routes"
 ✅ **FIXED in latest version** - Update your package:
 
 ```bash
-composer update microrepairnet/chat-widget
+composer update microrepairnet/laravel-ai-chat
 php artisan cache:clear
 ```
 

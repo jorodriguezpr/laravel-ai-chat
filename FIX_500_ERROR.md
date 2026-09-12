@@ -45,7 +45,7 @@ The package controllers have been updated:
 cd C:\PhpProjects\larachat\
 
 # Update the package
-composer update microrepairnet/chat-widget
+composer update microrepairnet/laravel-ai-chat
 
 # Clear all caches
 php artisan cache:clear
@@ -104,7 +104,7 @@ composer dump-autoload -o
 **Solution:** Models are still being imported from `App\Models`
 ```bash
 # Make sure you updated the package
-composer update microrepairnet/chat-widget --force
+composer update microrepairnet/laravel-ai-chat --force
 php artisan cache:clear
 ```
 
@@ -133,7 +133,7 @@ If nothing works, do a complete reset:
 
 ```bash
 # Remove package for clean reinstall
-composer remove microrepairnet/chat-widget
+composer remove microrepairnet/laravel-ai-chat
 
 # Clear everything
 php artisan cache:clear
@@ -144,7 +144,7 @@ composer dump-autoload
 php artisan optimize:clear
 
 # Reinstall fresh
-composer require microrepairnet/chat-widget
+composer require microrepairnet/laravel-ai-chat
 
 # Run setup
 php artisan migrate

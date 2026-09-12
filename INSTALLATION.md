@@ -30,12 +30,12 @@ Your Laravel layout **must** include the CSRF token meta tag in the `<head>` sec
 $composer = Get-Content composer.json | ConvertFrom-Json
 $composer.repositories += @{
     type = "path"
-    url = "./packages/microrepairnet/chat-widget"
+    url = "./packages/microrepairnet/laravel-ai-chat"
 }
 $composer | ConvertTo-Json -Depth 10 | Set-Content composer.json
 
 # 2. Install package
-composer require microrepairnet/chat-widget
+composer require microrepairnet/laravel-ai-chat
 
 # 3. Run migrations (required)
 php artisan migrate
@@ -53,7 +53,7 @@ bash INSTALL.sh
 
 ## What Gets Installed Automatically ✅
 
-After running `composer require microrepairnet/chat-widget`, these are **automatically loaded** by the service provider:
+After running `composer require microrepairnet/laravel-ai-chat`, these are **automatically loaded** by the service provider:
 
 - ✅ **Routes** - API endpoints available at `/api/chat/*` and `/api/ai/*` (auto-registered)
 - ✅ **Views** - Blade templates available via `chat-widget::` namespace (auto-registered)
@@ -229,7 +229,7 @@ After completing the quick start, verify the installation:
 
 ## Package Structure
 
-Package files are located in `packages/microrepairnet/chat-widget/`:
+Package files are located in `packages/microrepairnet/laravel-ai-chat/`:
 
 ```
 ├── config/
@@ -261,7 +261,7 @@ Package files are located in `packages/microrepairnet/chat-widget/`:
 
 ### Package not found
 
-1. Ensure `packages/microrepairnet/chat-widget/` directory exists
+1. Ensure `packages/microrepairnet/laravel-ai-chat/` directory exists
 2. Run `composer update` to discover the package
 3. Verify `composer.json` has the path repository
 

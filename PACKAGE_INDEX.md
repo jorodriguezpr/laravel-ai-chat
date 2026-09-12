@@ -2,7 +2,7 @@
 
 ## 📦 Package Information
 
-- **Name**: microrepairnet/chat-widget
+- **Name**: microrepairnet/laravel-ai-chat
 - **Version**: 1.1.0
 - **License**: MIT
 - **Author**: Jose Rodriguez Arroyo (jrpcone@gmail.com)
@@ -228,7 +228,7 @@ chat-widget/
 ### Method 1: From Packagist (When Published)
 
 ```bash
-composer require microrepairnet/chat-widget
+composer require microrepairnet/laravel-ai-chat
 php artisan migrate
 ```
 
@@ -256,7 +256,7 @@ Add to `composer.json`:
 
 Install:
 ```bash
-composer require microrepairnet/chat-widget:^1.1
+composer require microrepairnet/laravel-ai-chat:^1.1
 php artisan migrate
 ```
 
@@ -426,7 +426,7 @@ return [
 ### Minor/Patch Updates
 
 ```bash
-composer update microrepairnet/chat-widget
+composer update microrepairnet/laravel-ai-chat
 php artisan migrate
 php artisan cache:clear
 ```

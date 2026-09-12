@@ -76,7 +76,7 @@ git push origin v1.1.0
 ### Step 4: Enable Auto-Updates (GitHub Integration)
 
 1. Go to your package page on Packagist
-2. Click your username → "My Packages" → "microrepairnet/chat-widget"
+2. Click your username → "My Packages" → "microrepairnet/laravel-ai-chat"
 3. Go to "Settings" tab
 4. Set up GitHub webhook for automatic updates on new releases
 
@@ -85,7 +85,7 @@ git push origin v1.1.0
 Now anyone can install your package:
 
 ```bash
-composer require microrepairnet/chat-widget
+composer require microrepairnet/laravel-ai-chat
 ```
 
 That's it! No repository configuration needed in `composer.json`.
@@ -189,7 +189,7 @@ In client Laravel projects, add to `composer.json`:
 Then install:
 
 ```bash
-composer require microrepairnet/chat-widget
+composer require microrepairnet/laravel-ai-chat
 ```
 
 ### Step 7: Authentication (Optional)
@@ -237,7 +237,7 @@ In your Laravel project's `composer.json`:
         }
     ],
     "require": {
-        "microrepairnet/chat-widget": "^1.1"
+        "microrepairnet/laravel-ai-chat": "^1.1"
     }
 }
 ```
@@ -289,7 +289,7 @@ Follow [SemVer](https://semver.org/):
 ```json
 {
     "require": {
-        "microrepairnet/chat-widget": "^1.1"
+        "microrepairnet/laravel-ai-chat": "^1.1"
     }
 }
 ```
@@ -366,7 +366,7 @@ git push origin main --tags
 Client projects update with:
 
 ```bash
-composer update microrepairnet/chat-widget
+composer update microrepairnet/laravel-ai-chat
 ```
 
 ### Patch Updates (1.1.0 → 1.1.1)
@@ -393,7 +393,7 @@ Include migration guide in CHANGELOG.md:
 - Changed Y to Z
 
 ### Upgrade Guide
-1. Update composer.json: `"microrepairnet/chat-widget": "^2.0"`
+1. Update composer.json: `"microrepairnet/laravel-ai-chat": "^2.0"`
 2. Run: `composer update`
 3. Follow migration steps...
 ```
@@ -413,7 +413,7 @@ cd test-chat-widget
 composer config repositories.chat-widget vcs https://github.com/jorodriguezpr/laravel-ai-chat.git
 
 # Install package
-composer require microrepairnet/chat-widget:^1.1
+composer require microrepairnet/laravel-ai-chat:^1.1
 
 # Run migrations
 php artisan migrate
@@ -428,7 +428,7 @@ Check these files exist:
 
 ```bash
 # Package installed
-ls vendor/microrepairnet/chat-widget
+ls vendor/microrepairnet/laravel-ai-chat
 
 # Service provider auto-discovered
 php artisan package:discover
@@ -501,7 +501,7 @@ jobs:
 
 ```json
 {
-    "name": "microrepairnet/chat-widget",
+    "name": "microrepairnet/laravel-ai-chat",
     "description": "Laravel package for real-time chat widget with AI support",
     "keywords": ["laravel", "chat", "widget", "ai", "livechat"],
     "homepage": "https://github.com/jorodriguezpr/laravel-ai-chat",
@@ -528,9 +528,9 @@ jobs:
 Add to README.md for professionalism:
 
 ```markdown
-[![Latest Version](https://img.shields.io/packagist/v/microrepairnet/chat-widget.svg)](https://packagist.org/packages/microrepairnet/chat-widget)
-[![Total Downloads](https://img.shields.io/packagist/dt/microrepairnet/chat-widget.svg)](https://packagist.org/packages/microrepairnet/chat-widget)
-[![License](https://img.shields.io/packagist/l/microrepairnet/chat-widget.svg)](https://packagist.org/packages/microrepairnet/chat-widget)
+[![Latest Version](https://img.shields.io/packagist/v/microrepairnet/laravel-ai-chat.svg)](https://packagist.org/packages/microrepairnet/laravel-ai-chat)
+[![Total Downloads](https://img.shields.io/packagist/dt/microrepairnet/laravel-ai-chat.svg)](https://packagist.org/packages/microrepairnet/laravel-ai-chat)
+[![License](https://img.shields.io/packagist/l/microrepairnet/laravel-ai-chat.svg)](https://packagist.org/packages/microrepairnet/laravel-ai-chat)
 ```
 
 ---
@@ -540,7 +540,7 @@ Add to README.md for professionalism:
 ### Issue: Package Not Found
 
 **Check**:
-1. Package name matches in composer.json: `"microrepairnet/chat-widget"`
+1. Package name matches in composer.json: `"microrepairnet/laravel-ai-chat"`
 2. Repository URL is correct
 3. Git tag exists: `git tag -l`
 4. Packagist shows package (if using Packagist)
@@ -551,23 +551,23 @@ Add to README.md for professionalism:
 composer clear-cache
 
 # Try again
-composer require microrepairnet/chat-widget
+composer require microrepairnet/laravel-ai-chat
 ```
 
 ### Issue: Wrong Version Installed
 
 **Check**:
 ```bash
-composer show microrepairnet/chat-widget
+composer show microrepairnet/laravel-ai-chat
 ```
 
 **Solution**:
 ```bash
 # Update to latest
-composer update microrepairnet/chat-widget
+composer update microrepairnet/laravel-ai-chat
 
 # Or specify version
-composer require microrepairnet/chat-widget:^1.1
+composer require microrepairnet/laravel-ai-chat:^1.1
 ```
 
 ### Issue: Auto-Discovery Not Working
@@ -603,10 +603,10 @@ php artisan package:discover
 
 ### For Client Projects
 
-1. **Add dependency**: `composer require microrepairnet/chat-widget`
+1. **Add dependency**: `composer require microrepairnet/laravel-ai-chat`
 2. **Run migrations**: `php artisan migrate`
 3. **Configure**: Publish config if needed
-4. **Update regularly**: `composer update microrepairnet/chat-widget`
+4. **Update regularly**: `composer update microrepairnet/laravel-ai-chat`
 
 ---
 
@@ -623,7 +623,7 @@ git push origin v1.1.0
 
 **Client Installation**:
 ```bash
-composer require microrepairnet/chat-widget
+composer require microrepairnet/laravel-ai-chat
 php artisan migrate
 ```
 

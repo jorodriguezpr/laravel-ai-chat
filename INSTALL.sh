@@ -20,7 +20,7 @@ foreach ($composer['repositories'] as $repo) {
 if (!$hasPathRepo) {
     $composer['repositories'][] = [
         'type' => 'path',
-        'url' => './packages/microrepairnet/chat-widget'
+        'url' => './packages/microrepairnet/laravel-ai-chat'
     ];
 }
 file_put_contents('composer.json', json_encode($composer, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
@@ -28,7 +28,7 @@ echo "✓ Updated composer.json\n";
 PHP
 
 # Require package
-composer require microrepairnet/chat-widget
+composer require microrepairnet/laravel-ai-chat
 
 # Publish config and assets
 php artisan vendor:publish --provider="Microrepairnet\ChatWidget\Providers\ChatWidgetServiceProvider" --tag="chat-widget-config"
@@ -52,4 +52,4 @@ echo "   @include('chat-widget::widget')"
 echo ""
 echo "4. Visit /admin/live-chat to see conversations"
 echo ""
-echo "For more info, see: packages/microrepairnet/chat-widget/README.md"
+echo "For more info, see: packages/microrepairnet/laravel-ai-chat/README.md"

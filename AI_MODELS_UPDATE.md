@@ -6,7 +6,7 @@ All AI provider models have been updated to support the latest versions as of Ap
 
 ## Changes Made
 
-### 1. Package Updates (`packages/microrepairnet/chat-widget/`)
+### 1. Package Updates (`packages/microrepairnet/laravel-ai-chat/`)
 
 #### OpenAI Provider
 **Default Model**: `gpt-3.5-turbo` → **`gpt-4o`**

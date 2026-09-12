@@ -54,7 +54,7 @@ This guide covers deploying the Chat Widget package in production environments.
 #### Step 2: Install Package
 
 ```bash
-composer require microrepairnet/chat-widget:^1.1
+composer require microrepairnet/laravel-ai-chat:^1.1
 ```
 
 #### Step 3: Run Migrations
@@ -99,7 +99,7 @@ If you're using a private package repository:
 Then install normally:
 
 ```bash
-composer require microrepairnet/chat-widget
+composer require microrepairnet/laravel-ai-chat
 ```
 
 ### Method 3: Local Package (Development)
@@ -111,7 +111,7 @@ For development or testing environments:
     "repositories": [
         {
             "type": "path",
-            "url": "./packages/microrepairnet/chat-widget"
+            "url": "./packages/microrepairnet/laravel-ai-chat"
         }
     ]
 }
@@ -548,7 +548,7 @@ jobs:
 ### Minor Versions (1.x.y)
 
 ```bash
-composer update microrepairnet/chat-widget
+composer update microrepairnet/laravel-ai-chat
 php artisan migrate
 php artisan optimize:clear
 ```

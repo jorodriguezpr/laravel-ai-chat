@@ -3,7 +3,7 @@
 ## 📦 Package Structure
 
 ```
-packages/microrepairnet/chat-widget/
+packages/microrepairnet/laravel-ai-chat/
 ├── config/
 │   └── chat-widget.php
 ├── database/
@@ -78,23 +78,23 @@ packages/microrepairnet/chat-widget/
 
 ```bash
 # 1. In the new Laravel application, create the directory structure
-mkdir -p packages/microrepairnet/chat-widget
+mkdir -p packages/microrepairnet/laravel-ai-chat
 
 # 2. Copy the package folder from this project
-cp -r packages/microrepairnet/chat-widget your-new-app/packages/
+cp -r packages/microrepairnet/laravel-ai-chat your-new-app/packages/
 
 # 3. Add to composer.json repositories section
 {
     "repositories": [
         {
             "type": "path",
-            "url": "./packages/microrepairnet/chat-widget"
+            "url": "./packages/microrepairnet/laravel-ai-chat"
         }
     ]
 }
 
 # 4. Install the package
-composer require microrepairnet/chat-widget
+composer require microrepairnet/laravel-ai-chat
 
 # 5. Run installation commands
 php artisan vendor:publish --provider="Microrepairnet\ChatWidget\Providers\ChatWidgetServiceProvider" --tag="chat-widget-config"
@@ -107,7 +107,7 @@ php artisan migrate
 ```bash
 # 1. Publish to Packagist or GitHub Packages
 # Then require via composer
-composer require microrepairnet/chat-widget
+composer require microrepairnet/laravel-ai-chat
 
 # 2. Run the same vendor:publish commands
 php artisan vendor:publish --provider="Microrepairnet\ChatWidget\Providers\ChatWidgetServiceProvider" --tag="chat-widget-config"
@@ -171,7 +171,7 @@ AI_CHAT_PROVIDER=openai
 
 ### Step-by-step guide:
 
-1. **Copy the package** to `packages/microrepairnet/chat-widget`
+1. **Copy the package** to `packages/microrepairnet/laravel-ai-chat`
 2. **Copy controllers** from original app to new app
 3. **Copy views** from original app or customize
 4. **Add routes** to `routes/web.php`

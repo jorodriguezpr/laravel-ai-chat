@@ -17,7 +17,7 @@ View [widget] not found.
 
 #### Option A: Update Package (Recommended)
 ```bash
-composer update microrepairnet/chat-widget
+composer update microrepairnet/laravel-ai-chat
 php artisan cache:clear
 php artisan view:clear
 ```
@@ -31,7 +31,7 @@ php artisan view:clear
 php artisan route:clear
 
 # Reinstall package
-composer require microrepairnet/chat-widget --force
+composer require microrepairnet/laravel-ai-chat --force
 php artisan migrate
 ```
 
@@ -130,7 +130,7 @@ Add this to your layout's `<head>` section:
 
 **Error:**
 ```
-Could not find package microrepairnet/chat-widget
+Could not find package microrepairnet/laravel-ai-chat
 ```
 
 **Cause:** Composer doesn't know where the package is located.
@@ -143,7 +143,7 @@ Could not find package microrepairnet/chat-widget
        "repositories": [
            {
                "type": "path",
-               "url": "./packages/microrepairnet/chat-widget"
+               "url": "./packages/microrepairnet/laravel-ai-chat"
            }
        ]
    }
@@ -152,7 +152,7 @@ Could not find package microrepairnet/chat-widget
 2. **Update Composer:**
    ```bash
    composer update
-   composer require microrepairnet/chat-widget
+   composer require microrepairnet/laravel-ai-chat
    ```
 
 3. **Verify Directory Structure:**
@@ -290,7 +290,7 @@ Run this to verify everything is set up correctly:
 
 ```bash
 # 1. Check package is installed
-composer show microrepairnet/chat-widget
+composer show microrepairnet/laravel-ai-chat
 
 # 2. Check migrations
 php artisan migrate:status | grep chat
@@ -365,7 +365,7 @@ php artisan optimize:clear
 composer dump-autoload
 
 # Reinstall package
-composer require microrepairnet/chat-widget --force
+composer require microrepairnet/laravel-ai-chat --force
 
 # Setup database
 php artisan migrate

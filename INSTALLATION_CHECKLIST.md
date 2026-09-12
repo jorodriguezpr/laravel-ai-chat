@@ -30,7 +30,7 @@ Choose **ONE** method below:
 ### Method 1: From Packagist (Public) ⭐ Recommended
 
 ```bash
-composer require microrepairnet/chat-widget
+composer require microrepairnet/laravel-ai-chat
 ```
 
 **Prerequisites**: None (package must be published to Packagist first)
@@ -53,7 +53,7 @@ composer require microrepairnet/chat-widget
 **Step 2**: Install package:
 
 ```bash
-composer require microrepairnet/chat-widget:^1.1
+composer require microrepairnet/laravel-ai-chat:^1.1
 ```
 
 ### Method 3: From Private Repository (Satis)
@@ -74,7 +74,7 @@ composer require microrepairnet/chat-widget:^1.1
 **Step 2**: Install package:
 
 ```bash
-composer require microrepairnet/chat-widget
+composer require microrepairnet/laravel-ai-chat
 ```
 
 ### Method 4: Local Development (Path)
@@ -88,7 +88,7 @@ composer require microrepairnet/chat-widget
     "repositories": [
         {
             "type": "path",
-            "url": "./packages/microrepairnet/chat-widget"
+            "url": "./packages/microrepairnet/laravel-ai-chat"
         }
     ]
 }
@@ -97,7 +97,7 @@ composer require microrepairnet/chat-widget
 **Step 3**: Install with symlink:
 
 ```bash
-composer require microrepairnet/chat-widget @dev
+composer require microrepairnet/laravel-ai-chat @dev
 ```
 
 ---
@@ -479,7 +479,7 @@ chown -R www-data:www-data storage bootstrap/cache
 
 **Solution**:
 ```bash
-composer update microrepairnet/chat-widget
+composer update microrepairnet/laravel-ai-chat
 php artisan cache:clear
 php artisan view:clear
 ```
@@ -523,12 +523,12 @@ Check browser console for endpoint errors.
 ### ✅ Package Installed
 
 ```bash
-composer show microrepairnet/chat-widget
+composer show microrepairnet/laravel-ai-chat
 ```
 
 **Expected Output**:
 ```
-name     : microrepairnet/chat-widget
+name     : microrepairnet/laravel-ai-chat
 versions : * 1.1.0
 type     : library
 ...

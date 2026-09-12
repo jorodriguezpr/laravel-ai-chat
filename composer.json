@@ -1,5 +1,5 @@
 {
-    "name": "microrepairnet/chat-widget",
+    "name": "microrepairnet/laravel-ai-chat",
     "description": "A comprehensive Laravel chat widget package with AI provider support",
     "version": "1.2.0",
     "type": "library",

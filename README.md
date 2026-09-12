@@ -134,7 +134,7 @@ This package includes extensive documentation to help you get started quickly:
 ### Quick Setup
 
 ```bash
-composer require microrepairnet/chat-widget
+composer require microrepairnet/laravel-ai-chat
 php artisan chat-widget:install
 ```
 
